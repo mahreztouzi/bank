@@ -1,0 +1,34 @@
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative; /* Ajout de position:relative pour gérer le positionnement absolu de l'image */
+}
+
+.bg-fond-black {
+  background: linear-gradient(
+    335deg,
+    rgba(254, 182, 0, 1) 50%,
+    rgba(114, 33, 130, 1) 51%
+  );
+  opacity: 0.6;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.card-container {
+  margin: auto;
+  width: 90%; /* Ajustement de la largeur pour une meilleure adaptation */
+  max-width: 1000px; /* Ajout d'une largeur maximale pour éviter que le conteneur devienne trop large */
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.884);
+  box-shadow: 0 0 15px 1px rgba(43, 41, 41, 0.479);
+  overflow: hidden; /* Ajout de overflow: hidden pour gérer le débordement des enfants */
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
