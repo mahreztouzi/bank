@@ -1,217 +1,59 @@
+<!-- nouveau design -->
+<div class="row login-container">
+  <div class="col-md-7 col-sm-1 d-none d-sm-block">
+    <img
+      class="img-fluid login-img-bg"
+      src="../../assets/loginBg.png"
+      class="cover-image"
+    />
+  </div>
+  <div class="col-12 col-sm-12 col-md-5 input-container">
+    <div class="header-container">
+      <img class="img-header" src="../../assets/bankLogo.png" alt="logo" />
+      <hr style="border-bottom: 1px solid #742484" />
+    </div>
+    <div class="body-container">
+      <span class="title">Connexion</span>
+      <p class="subtitle">
+        Découvrez une expérience exceptionnelle. Connectez-vous pour profiter de
+        fonctionnalités exclusives.
+      </p>
+      <div>
+        <div class="mb-1 mt-5">
+          <input
+            type="email"
+            class="form-control mb-3"
+            id="email"
+            placeholder="Adresse email"
+          />
+        </div>
+        <div class="mb-3 forgot-password-container">
+          <span class="forgot-password"> Mot de passe oublié ?</span>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Mot de passe"
+          />
+        </div>
+        <div class="button-container">
+          <button class="btn mb-5">Connexion</button>
+        </div>
+      </div>
+
+      <div class="signUp-container">
+        Vous êtes nouveau ?
+        <span>Inscription</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- <div class="row" style="height: 100vh; width: 100%">
-  <div class="col-7 col-sm-1 col-md-7">
-    <img
-      class="img-fluid"
-      src="../../assets/bdl.jpg"
-      class="cover-image"
-      style="
-        height: 100%;
-        width: 100%;
-        box-shadow: 4px 0px 5px 3px rgba(173, 158, 158, 0.84);
-      "
-    />
-    />
-  </div>
-  <div class="col-5" style="height: 100%">
-    <div style="width: 100%; text-align: center; height: 10%">
-      <img src="../../assets/bankLogo.png" alt="" style="width: 50%" />
-      <hr style="border-bottom: 1px solid #742484" />
-    </div>
-    <div
-      class="card"
-      style="
-        width: 22rem;
-        height: 67%;
-        margin: 10% auto;
-        box-shadow: 0px 0px 5px 3px rgba(176, 157, 157, 0.84);
-        border: 2px solid #742484;
-        border-radius: 15px;
-      "
-    >
-      <div
-        class="card-header"
-        style="
-          background-color: #742484;
-          text-align: center;
-          color: white;
-          font-weight: 500;
-        "
-      >
-        Connexion a votre compte
-      </div>
-      <div class="card-body">
-        <p
-          style="
-            text-align: center;
-            text-shadow: 0 0 2px #74248494;
-            letter-spacing: 1px;
-            width: 100%;
-          "
-        >
-          Découvrez une expérience exceptionnelle. Connectez-vous pour profiter
-          de fonctionnalités exclusives.
-        </p>
-        <div class="mb-3 mt-4">
-          <label for="password" class="form-label" style="font-size: small"
-            >Adresse email</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            style="border: 1px solid #742484; border-radius: 15px"
-            placeholder="name@example.com"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="password" class="form-label" style="font-size: small"
-            >Mot de passe</label
-          >
-          <input
-            type="password"
-            style="border: 1px solid #742484; border-radius: 15px"
-            class="form-control"
-            id="password"
-            placeholder="*********"
-          />
-        </div>
-
-        <button
-          class="btn"
-          style="
-            width: 100%;
-            background-color: #742484;
-            color: white;
-            border-radius: 15px;
-          "
-        >
-          Connexion
-        </button>
-      </div>
-      <div class="card-footer" style="height: 10%">
-        <div style="display: flex; justify-content: space-between">
-          <p>Vous êtes nouveau ?</p>
-          <span style="color: #742484; font-weight: 700">Inscription</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-<!-- 
-<div class="row" style="height: 100vh; width: 100%">
   <div class="col-md-7 col-sm-1 d-none d-sm-block">
     <img
       class="img-fluid"
-      src="../../assets/bdl.jpg"
-      class="cover-image"
-      style="
-        height: 100%;
-        width: 100%;
-        box-shadow: 4px 0px 5px 3px rgba(173, 158, 158, 0.84);
-      "
-    />
-  </div>
-  <div
-    class="col-12 col-sm-12 col-md-5"
-    style="
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      box-sizing: none;
-    "
-  >
-    <div style="width: 100%; text-align: center; height: 10%">
-      <img src="../../assets/bankLogo.png" alt="" style="width: 50%" />
-      <hr style="border-bottom: 1px solid #742484" />
-    </div>
-    <div
-      class="card"
-      style="
-        width: 22rem;
-        height: 67%;
-        margin: auto;
-        box-shadow: 0px 0px 5px 3px rgba(176, 157, 157, 0.84);
-        border: 2px solid #742484;
-        border-radius: 15px;
-      "
-    >
-      <div
-        class="card-header"
-        style="
-          background-color: #742484;
-          text-align: center;
-          color: white;
-          font-weight: 500;
-        "
-      >
-        Connexion a votre compte
-      </div>
-      <div class="card-body">
-        <p
-          style="
-            text-align: center;
-            text-shadow: 0 0 2px #74248494;
-            letter-spacing: 1px;
-            width: 100%;
-          "
-        >
-          Découvrez une expérience exceptionnelle. Connectez-vous pour profiter
-          de fonctionnalités exclusives.
-        </p>
-        <div class="mb-3 mt-4">
-          <label for="password" class="form-label" style="font-size: small"
-            >Adresse email</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            style="border: 1px solid #742484; border-radius: 15px"
-            placeholder="name@example.com"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="password" class="form-label" style="font-size: small"
-            >Mot de passe</label
-          >
-          <input
-            type="password"
-            style="border: 1px solid #742484; border-radius: 15px"
-            class="form-control"
-            id="password"
-            placeholder="*********"
-          />
-        </div>
-
-        <button
-          class="btn"
-          style="
-            width: 100%;
-            background-color: #742484;
-            color: white;
-            border-radius: 15px;
-          "
-        >
-          Connexion
-        </button>
-      </div>
-      <div class="card-footer" style="height: 10%">
-        <div style="display: flex; justify-content: space-between">
-          <p>Vous êtes nouveau ?</p>
-          <span style="color: #742484; font-weight: 700">Inscription</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<div class="row" style="height: 100vh; width: 100%">
-  <div class="col-md-7 col-sm-1 d-none d-sm-block">
-    <img
-      class="img-fluid"
-      src="../../assets/bdl.jpg"
+      src="../../assets/bg.jpg"
       class="cover-image"
       style="
         height: 100%;
@@ -245,41 +87,75 @@
         border-radius: 15px;
       "
     >
-      <div
-        style="
-          text-align: center;
-          color: rgb(12, 12, 12);
-          font-weight: 500;
-          display: flex;
-          flex-direction: column;
-          font-size: 25px;
-          font-weight: bold;
-          margin-bottom: 5%;
-        "
-      >
-        Connexion a votre compte
-        <span style="color: #742484">Ou</span>
-        <span> Inscription </span>
-      </div>
       <div>
-        <div class="mb-1 mt-5">
-          <input
-            type="email"
-            class="form-control mb-3"
-            id="email"
-            style="border: 2px solid #742484; border-radius: 15px"
-            placeholder="name@example.com"
-          />
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          "
+        >
+          <div class="mr-5">
+            <input
+              type="email"
+              class="form-control mb-3"
+              id="email"
+              style="border-radius: 12px"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              class="form-control mb-3"
+              id="email"
+              style="border-radius: 12px"
+              placeholder="name@example.com"
+            />
+          </div>
         </div>
-        <div class="mb-3">
-          <input
-            type="password"
-            style="border: 2px solid #742484; border-radius: 15px"
-            class="form-control"
-            id="password"
-            placeholder="*********"
-          />
-        </div>
+
+        <input
+          type="email"
+          class="form-control mb-3"
+          id="email"
+          style="border-radius: 12px"
+          placeholder="name@example.com"
+        />
+
+        <input
+          type="password"
+          style="border-radius: 12px"
+          class="form-control mb-3"
+          id="password"
+          placeholder="*********"
+        />
+        <input
+          type="email"
+          class="form-control mb-3"
+          id="email"
+          style="border-radius: 12px"
+          placeholder="name@example.com"
+        />
+
+        <input
+          type="password"
+          style="border-radius: 12px"
+          class="form-control mb-3"
+          id="password"
+          placeholder="*********"
+        />
+        <select
+          class="form-select mb-5"
+          style="border-radius: 12px"
+          id="inputGroupSelect02"
+        >
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
         <div
           style="
             width: 100%;
@@ -294,10 +170,10 @@
               width: 40%;
               background-color: #742484;
               color: white;
-              border-radius: 15px;
+              border-radius: 20px;
             "
           >
-            Connexion
+            Inscription
           </button>
         </div>
       </div>
@@ -320,4 +196,4 @@
       fonctionnalités exclusives.
     </p>
   </div>
-</div>
+</div> -->

@@ -6,15 +6,16 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent],
+  declarations: [AppComponent, LoginComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([{ path: '', component: LoginComponent },
-      {path: 'sidebar', component:SidebarComponent}
-    
+    RouterModule.forRoot([
+      { path: '', component: LoginComponent },
+      { path: 'home', component: HomeComponent },
     ]),
   ],
   providers: [],
