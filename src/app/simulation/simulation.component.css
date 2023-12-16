@@ -7,7 +7,7 @@
   position: relative; /* Ajout de position:relative pour gérer le positionnement absolu de l'image */
 }
 
-.bg-fond-black {
+.bg-fond {
   background: linear-gradient(
     335deg,
     rgba(254, 182, 0, 1) 50%,

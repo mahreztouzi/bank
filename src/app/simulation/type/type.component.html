@@ -1,0 +1,11 @@
+<div class="header d-flex justify-content-center w-100">
+  <div class="title">Choisissez votre type de crédit</div>
+</div>
+<div class="row cards">
+  <div class="col-sm-6 col-md-3" *ngFor="let credit of creditType">
+    <div class="card">
+      <p>{{ credit.name }}</p>
+      <span class="material-icons">arrow_forward</span>
+    </div>
+  </div>
+</div>
