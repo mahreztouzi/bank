@@ -2,9 +2,17 @@
   <div class="title">Choisissez votre type de crédit</div>
 </div>
 <div class="row cards">
-  <div class="col-sm-6 col-md-3" *ngFor="let credit of creditType">
-    <div class="card">
-      <p>{{ credit.name }}</p>
+  <div class="col">
+    <div class="card" [routerLink]="['/simulation/consomation']">
+      <p>Credit a la consomation</p>
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="card" [routerLink]="['/simulation/immobilier']">
+      <p>Credit immobilier</p>
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="card" [routerLink]="['/simulation/presurgage']">
+      <p>Pré sur gage</p>
       <span class="material-icons">arrow_forward</span>
     </div>
   </div>

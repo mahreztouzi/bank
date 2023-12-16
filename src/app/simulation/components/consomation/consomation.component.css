@@ -1,3 +1,20 @@
+/* translate.animation.css */
+
+@keyframes translate {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.translate {
+  animation: translate 0.5s ease;
+}
+
 .header {
   width: 90%;
   display: flex;
@@ -11,7 +28,7 @@
   margin-top: 3%;
   font-weight: bold;
   letter-spacing: 1px;
-  color: rgb(110, 112, 112);
+  color: rgb(43, 43, 43);
 }
 .cards {
   width: 60%;
@@ -40,7 +57,6 @@
   border: none;
   background-color: rgb(255, 255, 255);
   width: 70%;
-  box-shadow: 0 0 5px 1px rgba(126, 125, 125, 0.24);
 }
 .card:hover .material-icons {
   color: rgba(254, 182, 0, 1);

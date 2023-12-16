@@ -88,7 +88,7 @@
   flex-direction: column;
   text-align: center;
   max-width: 200px; /* Ajout d'une largeur maximale pour les cartes */
-  box-shadow: 0 0 5px 1px #6666664d;
+  box-shadow: 0 0 5px 1px rgba(126, 125, 125, 0.24);
   background-color: #742484;
   color: white;
   border: none;
@@ -137,6 +137,8 @@
     flex-direction: row;
     justify-content: space-around;
     min-width: 80%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
   .card p {
     margin: auto;

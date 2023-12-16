@@ -1,3 +1,18 @@
+@keyframes translate {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.translate {
+  animation: translate 0.5s ease;
+}
+
 .header {
   width: 90%;
   display: flex;
@@ -8,28 +23,24 @@
 
 .title {
   font-size: 36px;
-  margin-top: 3%;
+  margin-top: 2%;
   font-weight: bold;
   letter-spacing: 1px;
-  color: rgb(110, 112, 112);
+  color: rgb(43, 43, 43);
 }
 .cards {
-  width: 60%;
-  margin-top: 1%;
+  margin: 0 auto;
   height: 70%;
   overflow-y: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  width: 90%;
+  padding: 2%;
 }
 
 .card {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  margin: 5% auto;
+  margin: 1%;
   padding: 8px 4px;
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -39,7 +50,6 @@
   transition: 0.3s ease;
   border: none;
   background-color: rgb(255, 255, 255);
-  width: 70%;
   box-shadow: 0 0 5px 1px rgba(126, 125, 125, 0.24);
 }
 .card:hover .material-icons {
@@ -48,14 +58,8 @@
 
 .card:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 12px 1px rgba(138, 136, 136, 0.5);
 }
 
 .card p:hover {
   color: rgb(2, 2, 2);
-}
-
-.card p {
-  font-size: 25px;
-  font-weight: 500;
 }
